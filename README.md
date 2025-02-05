@@ -33,12 +33,12 @@ Exécutez my_sudo suivi d'une commande :
 you must use
 
 ```sh
-sudo chown root
+sudo chown root my_sudo
 ```
 and
 
 ```sh
-sudo chmod u+s
+sudo chmod u+s my_sudo
 ```
 or
 
