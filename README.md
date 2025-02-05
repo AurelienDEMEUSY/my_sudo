@@ -30,6 +30,22 @@ Exécutez my_sudo suivi d'une commande :
 
 ./my_sudo [options] [commande]
 
+you must use
+
+```sh
+sudo chown root
+```
+and
+
+```sh
+sudo chmod u+s
+```
+or
+
+```sh
+sudo ./my_sudo
+```
+
 ## Options disponibles :
 
 - -h : Affiche l'aide
